@@ -28,6 +28,7 @@ namespace ASP_NETCore_Working_EF
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {

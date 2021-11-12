@@ -176,3 +176,13 @@ D:\FPT\SE6--\PRN211\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\ASP_NETCore_Wo
 D:\FPT\SE6--\PRN211\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.genruntimeconfig.cache
 D:\FPT\SE6--\PRN211\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\FPT\SE6--\PRN211\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.csproj.AssemblyReference.cache
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.AssemblyInfoInputs.cache
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.AssemblyInfo.cs
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.csproj.CoreCompileInputs.cache
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.MvcApplicationPartsAssemblyInfo.cache
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.RazorAssemblyInfo.cache
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.RazorAssemblyInfo.cs
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\netcoreapp3.1\ASP_NETCore_Working_EF.pdb
