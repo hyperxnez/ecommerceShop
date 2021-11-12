@@ -1,0 +1,51 @@
+﻿@using ASP_NETCore_Working_EF.Models
+@model List<Product>
+
+<style type="text/css">
+    td {
+        text-align: center;
+    }
+</style>
+<h1>Product of List</h1>
+<hr />
+
+@using (Html.BeginForm("Index", "Product", FormMethod.Post, new { name = "demoForm" }))
+{
+
+    <table style="width:80%; margin:20px auto;">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+        @foreach (var p in Model)
+        {
+    <tr>
+        <td>@p.Pid</td>
+        <td>@p.Pname</td>
+        <td>@p.Quantity</td>
+        <td>@p.Price</td>
+        <td>@p.Image</td>
+        <td>@p.Description</td>
+        @if (p.Status == true)
+        {
+            <td>Het hang</td>
+        }
+        else
+        {
+            <td>Con hang</td>
+        }
+    </tr>
+        }
+    </table>
+}
+
+<script type="text/javascript">
+    function SelectedIndexChanged() {
+        document.demoForm.submit();
+    }
+</script>

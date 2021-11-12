@@ -1,0 +1,26 @@
+﻿@using ASP_NETCore_Working_EF.Models
+@model List<Product>
+<!-- Product Catagories Area Start -->
+<div class="products-catagories-area clearfix">
+    <div class="amado-pro-catagory clearfix">
+        @foreach (var p in Model)
+        {
+            <!-- Single Catagory -->
+            <div class="single-products-catagory clearfix">
+                <a href="shop.html">
+                    <img src="@p.Image" alt="">
+                    <!-- Hover Content -->
+                    <div class="hover-content">
+                        <div class="line"></div>
+                        <p>From 3,000,000đ</p>
+                        <h4>@p.Pname</h4>
+                    </div>
+                </a>
+            </div>
+        }
+
+
+
+    </div>
+</div>
+<!-- Product Catagories Area End -->
