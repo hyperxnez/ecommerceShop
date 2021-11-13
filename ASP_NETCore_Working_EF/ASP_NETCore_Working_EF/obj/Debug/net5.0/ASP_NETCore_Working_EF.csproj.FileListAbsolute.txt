@@ -84,3 +84,4 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs

@@ -32,5 +32,15 @@ namespace ASP_NETCore_Working_EF.Controllers
 
             return View(context.Products.Where(p => p.CateId == category.CateId).ToList());
         }
+
+        public IActionResult Detail()
+        {
+            string pid = RouteData.Values["id"].ToString();
+            ECommerce_PRN211Context context = new ECommerce_PRN211Context();
+            var product = context.Products.Find(pid);
+            ViewBag.Product = product;
+
+            return View(product);
+        }
     }
 }
