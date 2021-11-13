@@ -1,6 +1,24 @@
 ﻿@using ASP_NETCore_Working_EF.Models
 @model Product
 
+<script language="javascript" type="text/javascript">
+    function adjustQuantity(op) {
+        var effect = document.getElementById('qty');
+        var qty = effect.value;
+        switch (op) {
+            case 0:
+                effect.value++;
+                break;
+            case 1:
+                if (qty != 1) {
+                    effect.value--;
+                }
+                break;
+        };
+        return false;
+    }
+</script>
+
 <div class="single-product-area section-padding-100 clearfix">
     <div class="container-fluid">
 
@@ -65,13 +83,16 @@
                     </div>
 
                     <!-- Add to Cart Form -->
-                    <form class="cart clearfix" method="post">
+                    <form class="cart clearfix" action="/Cart/Add" method="post">
+                        <input hidden name="Name" value="@(Model.Pname)" />
+                        <input hidden name="Price" value="@(Model.Price)" />
+                        <input hidden name="pid" value="@(Model.Pid)" />
                         <div class="cart-btn d-flex mb-50">
                             <p>Qty</p>
                             <div class="quantity">
-                                <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-                                <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="1">
-                                <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
+                                <span class="qty-minus" onclick="adjustQuantity(1)"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="Quantity" value="1">
+                                <span class="qty-plus" onclick="adjustQuantity(0)"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
                             </div>
                         </div>
                         <button type="submit" name="addtocart" value="5" class="btn amado-btn">Add to cart</button>

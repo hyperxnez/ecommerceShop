@@ -18,7 +18,13 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -32,6 +38,7 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -50,6 +57,7 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.csproj.AssemblyReference.cache
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.GeneratedMSBuildEditorConfig.editorconfig
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.AssemblyInfoInputs.cache
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.AssemblyInfo.cs
@@ -63,7 +71,9 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.TagHelpers.input.cache
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.TagHelpers.output.cache
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.RazorCoreGenerate.cache
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -75,13 +85,3 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ref\ASP_NETCore_Working_EF.dll
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.pdb
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.genruntimeconfig.cache
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.csproj.AssemblyReference.cache
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs

@@ -42,5 +42,6 @@ namespace ASP_NETCore_Working_EF.Controllers
 
             return View(product);
         }
+
     }
 }

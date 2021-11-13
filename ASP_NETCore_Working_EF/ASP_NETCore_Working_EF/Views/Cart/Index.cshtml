@@ -10,7 +10,7 @@
                 effect.value++;
                 break;
             case 1:
-                if (qty != 0) {
+                if (qty != 1) {
                     effect.value--;
                 }
                 break;
@@ -18,15 +18,12 @@
         return false;
     }
 
-    function updateCartTotal() {
-
-    }
 </script>
 
 <div class="cart-table-area section-padding-100">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-8">
+            <div class="col-13 col-lg-8">
                 <div class="cart-title mt-50">
                     <h2>Shopping Cart</h2>
                 </div>
@@ -39,6 +36,7 @@
                                 <th>Name</th>
                                 <th>Price</th>
                                 <th>Quantity</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -46,7 +44,7 @@
                             {
                                 <tr>
                                     <td class="cart_product_img">
-                                        <a href="#"><img src="~/img/bg-img/cart1.jpg" alt="Product"></a>
+                                        <a href="#"><img src="@(item.referredProduct.Image)" alt="Product" style="max-height: 150px"></a>
                                     </td>
                                     <td class="cart_product_desc">
                                         <h5>@(item.Name)</h5>
@@ -58,15 +56,18 @@
                                         <div class="qty-btn d-flex">
                                             <p>Qty</p>
                                             <div class="quantity">
-                                                <span class="qty-minus" onclick="adjustQuantity(1)">
+                                                <a class="qty-minus" href="/Cart/SubtractQuantity/@(item.referredProduct.Pid)">
                                                     <i class="fa fa-minus" aria-hidden="true"></i>
-                                                </span>
-                                                <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="@(item.Quantity)">
-                                                <span class="qty-plus" onclick="adjustQuantity(0)">
+                                                </a>
+                                                <input disabled type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="quantity" value="@(item.Quantity)">
+                                                <a class="qty-plus" href="/Cart/AddQuantity/@(item.referredProduct.Pid)">
                                                     <i class="fa fa-plus" aria-hidden="true"></i>
-                                                </span>
+                                                </a>
                                             </div>
                                         </div>
+                                    </td>
+                                    <td>
+                                        <span><a href="/Cart/Remove/@(item.referredProduct.Pid)">Remove from Cart</a></span>
                                     </td>
                                 </tr>
                             }
@@ -74,13 +75,20 @@
                     </table>
                 </div>
             </div>
+            @{
+                decimal total = 0;
+                foreach (var item in Model)
+                {
+                    decimal fuckC = item.Price ?? 0;
+                    total += fuckC * Decimal.Parse(item.Quantity.ToString());
+                }
+            }
             <div class="col-12 col-lg-4">
                 <div class="cart-summary">
                     <h5>Cart Total</h5>
                     <ul class="summary-table">
-                        <li><span>subtotal:</span> <span>$140.00</span></li>
                         <li><span>delivery:</span> <span>Free</span></li>
-                        <li><span>total:</span> <span>$140.00</span></li>
+                        <li><span>total:</span> <span id="total">$@(total)</span></li>
                     </ul>
                     <div class="cart-btn mt-100">
                         <a href="/Cart/Index" class="btn amado-btn w-100">Checkout</a>
