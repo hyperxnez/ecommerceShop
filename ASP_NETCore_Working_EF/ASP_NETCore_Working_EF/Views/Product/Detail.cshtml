@@ -1,0 +1,105 @@
+﻿@using ASP_NETCore_Working_EF.Models
+@model Product
+
+<script language="javascript" type="text/javascript">
+    function adjustQuantity(op) {
+        var effect = document.getElementById('qty');
+        var qty = effect.value;
+        switch (op) {
+            case 0:
+                effect.value++;
+                break;
+            case 1:
+                if (qty != 1) {
+                    effect.value--;
+                }
+                break;
+        };
+        return false;
+    }
+</script>
+
+<div class="single-product-area section-padding-100 clearfix">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-50">
+                        <li class="breadcrumb-item"><a href="Home/Index">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">@(Model.CateId)</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@(Model.Pname)</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-7">
+                <div class="single_product_thumb">
+                    <div id="product_details_slider" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(@(Model.Image));">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a class="gallery_img" href="@(Model.Image)">
+                                    <img class="d-block w-100" src="@(Model.Image)" alt="First slide">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5">
+                <div class="single_product_desc">
+                    <!-- Product Meta Data -->
+                    <div class="product-meta-data">
+                        <div class="line"></div>
+                        <p class="product-price">$@(Model.Price)</p>
+                        <a href="product-details.html">
+                            <h6>@(Model.Pname)</h6>
+                        </a>
+                        <!-- Ratings & Review -->
+                        <div class="ratings-review mb-15 d-flex align-items-center justify-content-between">
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="review">
+                                <a href="#">Write A Review</a>
+                            </div>
+                        </div>
+                        <!-- Avaiable -->
+                        <p class="avaibility"><i class="fa fa-circle"></i> In Stock</p>
+                    </div>
+
+                    <div class="short_overview my-5">
+                        <p>@(Model.Description)</p>
+                    </div>
+
+                    <!-- Add to Cart Form -->
+                    <form class="cart clearfix" action="/Cart/Add" method="post">
+                        <input hidden name="Name" value="@(Model.Pname)" />
+                        <input hidden name="Price" value="@(Model.Price)" />
+                        <input hidden name="pid" value="@(Model.Pid)" />
+                        <div class="cart-btn d-flex mb-50">
+                            <p>Qty</p>
+                            <div class="quantity">
+                                <span class="qty-minus" onclick="adjustQuantity(1)"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                                <input type="number" class="qty-text" id="qty" step="1" min="1" max="300" name="Quantity" value="1">
+                                <span class="qty-plus" onclick="adjustQuantity(0)"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <button type="submit" name="addtocart" value="5" class="btn amado-btn">Add to cart</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

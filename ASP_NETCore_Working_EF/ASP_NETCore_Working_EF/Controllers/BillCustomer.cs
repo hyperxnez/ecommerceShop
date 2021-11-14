@@ -11,7 +11,10 @@ namespace ASP_NETCore_Working_EF.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            ECommerce_PRN211Context context = new ECommerce_PRN211Context();
+            var bill = context.Bills.ToList();
+            ViewBag.Bill = bill;
+            return View(bill);
         }
     }
 }

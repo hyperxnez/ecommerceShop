@@ -30,7 +30,19 @@ namespace ASP_NETCore_Working_EF.Controllers
             var query = context.Categories.Select(c => new { c.CateId, c.CateName });
             ViewBag.Categories = new SelectList(query.AsEnumerable(), "CategoryId", "CategoryName");
 
-            return View(context.Products.Where(p => p.CateId == category.CateId).ToList());
+            return View(context.Products.ToList());
         }
+
+        public IActionResult Detail()
+        {
+            string pid = RouteData.Values["id"].ToString();
+            ECommerce_PRN211Context context = new ECommerce_PRN211Context();
+            var product = context.Products.Find(pid);
+            ViewBag.Product = product;
+
+            return View(product);
+        }
+
+       
     }
 }

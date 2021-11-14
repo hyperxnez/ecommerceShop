@@ -1,5 +1,6 @@
 ﻿@using ASP_NETCore_Working_EF.Models
 @model List<Product>
+@model List<Category>
 
 
 
@@ -20,7 +21,7 @@
                 @foreach (var c in Model)
                 {
 
-                <li><a href="#"></a></li>
+                <li><a href="#"></a>@(c.Cate)</li>
                 }
             </ul>
         </div>
