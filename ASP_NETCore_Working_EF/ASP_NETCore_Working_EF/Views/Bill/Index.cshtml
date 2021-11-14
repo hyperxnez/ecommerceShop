@@ -1,5 +1,5 @@
 ﻿@using ASP_NETCore_Working_EF.Models
-
+@model List<Bill>
 <style>
         .panel-table .panel-body {
             padding: 0;
@@ -76,7 +76,6 @@
                             <tr>
                                 <th><em class="fa fa-cog"></em></th>
                                 <th class="hidden-xs">ID</th>
-                                <th>Name</th>
                                 <th>DateCreate</th>
                                 <th>Customer Name</th>
                                 <th>Phone</th>
@@ -90,9 +89,17 @@
                                     <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
                                     <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
                                 </td>
-                                <td class="hidden-xs">1</td>
-                                <td>John Doe</td>
-                                <td>johndoe@example.com</td>
+                                @foreach (var b in Model)
+                                {
+                                <td>@b.Cname</td>
+                                <td>@b.DateCreate</td>
+                                <td>@b.Cphone</td>
+                                <td>@b.CAddress</td>
+                                <td>@b.Total</td>
+                                }
+                               
+
+                                
                             </tr>
                         </tbody>
                     </table>

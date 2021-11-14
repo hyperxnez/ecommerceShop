@@ -1,8 +1,5 @@
 ﻿@using ASP_NETCore_Working_EF.Models
 @model List<Product>
-@model List<Category>
-
-
 
 
 @*@using (Html.BeginForm("Index", "Product", FormMethod.Post, new { name = "demoForm" }))*@
@@ -21,7 +18,7 @@
                 @foreach (var c in Model)
                 {
 
-                <li><a href="#"></a>@(c.Cate)</li>
+                <li><a href="#"></a>@(c.Cate.CateName)</li>
                 }
             </ul>
         </div>

@@ -86,15 +86,6 @@ D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.pdb
 D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.genruntimeconfig.cache
 <<<<<<< HEAD
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\ASP_NETCore_Working_EF.csproj.AssemblyReference.cache
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
-D:\Fall 2021\PRN211\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\appsettings.json
 C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\bin\Debug\net5.0\ASP_NETCore_Working_EF.exe
@@ -185,3 +176,4 @@ C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore
 C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Bill\Index.cshtml.g.cs
 =======
 >>>>>>> f85d54fc329477b9defc349db8599825d0633616
+C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\obj\Debug\net5.0\Razor\Views\Product\Detail.cshtml.g.cs
