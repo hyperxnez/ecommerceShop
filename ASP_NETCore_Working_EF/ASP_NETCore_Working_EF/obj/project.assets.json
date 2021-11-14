@@ -6633,28 +6633,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hyper\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hyper\\Documents\\GitHub\\ecommerceShop\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ecommerceShop\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF.csproj",
       "projectName": "ASP_NETCore_Working_EF",
-      "projectPath": "C:\\Users\\hyper\\Documents\\GitHub\\ecommerceShop\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF.csproj",
-      "packagesPath": "C:\\Users\\hyper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hyper\\Documents\\GitHub\\ecommerceShop\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\ecommerceShop\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\ecommerceShop\\ASP_NETCore_Working_EF\\ASP_NETCore_Working_EF\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hyper\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6724,7 +6716,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
