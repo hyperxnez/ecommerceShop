@@ -32,5 +32,7 @@ namespace ASP_NETCore_Working_EF.controllers
 
             return View(context.Products.Where(p => p.CateId == category.CateId).ToList());
         }
+
+        
     }
 }

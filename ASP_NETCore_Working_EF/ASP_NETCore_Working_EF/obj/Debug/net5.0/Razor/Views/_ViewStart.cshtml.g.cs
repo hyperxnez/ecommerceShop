@@ -12,7 +12,22 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\_ViewImports.cshtml"
+using ASP_NETCore_Working_EF;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\_ViewImports.cshtml"
+using ASP_NETCore_Working_EF.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fb15a6fa2b9e89da8d14e27ff92faedafbbc5199", @"/Views/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"415a7cd939638b307209a439931abfd93a2ba9ff", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

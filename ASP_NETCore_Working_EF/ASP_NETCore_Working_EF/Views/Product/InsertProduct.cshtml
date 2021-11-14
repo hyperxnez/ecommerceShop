@@ -1,0 +1,87 @@
+﻿@model ASP_NETCore_Working_EF.Models.Product
+
+    <div class="main-content-wrapper d-flex clearfix">
+        <form asp-action="InsertProduct">
+            <table>
+                <tr>
+                    <td>
+                        ProductID
+                    </td>
+                    <td>
+                        <input asp-for="Pid" class="form-control" />
+                        <span asp-validation-for="Pid" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        <input asp-for="Pname" class="form-control" />
+                        <span asp-validation-for="Pname" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Quantity
+                    </td>
+                    <td>
+                        <input asp-for="Quantity" class="form-control" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Price
+                    </td>
+                    <td>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                       Image
+                    </td>
+                    <td>
+                        <input asp-for="Image" class="form-control" />
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        Category
+                    </td>
+                    <td>
+                        <select asp-for="CateId" class="form-control" asp-items="ViewBag.CateId"></select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </td>
+                    <td>
+                        <input type="reset" valute="Reset" class="btn btn-primary"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>

@@ -43,6 +43,12 @@ namespace ASP_NETCore_Working_EF.Controllers
             return View(product);
         }
 
+        public IActionResult InsertProduct()
+        {
+            return View();
+        }
+        
+
        
     }
 }

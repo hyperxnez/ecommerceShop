@@ -13,6 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 1 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\_ViewImports.cshtml"
+using ASP_NETCore_Working_EF;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\Cart\Index.cshtml"
 using ASP_NETCore_Working_EF.Models;
 
@@ -20,6 +27,7 @@ using ASP_NETCore_Working_EF.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d3af8dc7971db324b60ca3b36738e12fcee297ad", @"/Views/Cart/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"415a7cd939638b307209a439931abfd93a2ba9ff", @"/Views/_ViewImports.cshtml")]
     public class Views_Cart_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<CartItem>>
     {
         #pragma warning disable 1998

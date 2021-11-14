@@ -13,6 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 1 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\_ViewImports.cshtml"
+using ASP_NETCore_Working_EF;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\Product\Detail.cshtml"
 using ASP_NETCore_Working_EF.Models;
 
@@ -20,8 +27,34 @@ using ASP_NETCore_Working_EF.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"827b75aaa6449655c823abe4b1bd6224ba6e24c4", @"/Views/Product/Detail.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"415a7cd939638b307209a439931abfd93a2ba9ff", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Detail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("cart clearfix"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("/Cart/Add"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_2 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        #pragma warning restore 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -168,8 +201,10 @@ WriteAttributeValue("", 1912, Model.Image, 1912, 14, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</p>\r\n                    </div>\r\n\r\n                    <!-- Add to Cart Form -->\r\n                    <form class=\"cart clearfix\" action=\"/Cart/Add\" method=\"post\">\r\n                        <input hidden name=\"Name\"");
-            BeginWriteAttribute("value", " value=\"", 3885, "\"", 3907, 1);
+            WriteLiteral("</p>\r\n                    </div>\r\n\r\n                    <!-- Add to Cart Form -->\r\n                    ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "827b75aaa6449655c823abe4b1bd6224ba6e24c411011", async() => {
+                WriteLiteral("\r\n                        <input hidden name=\"Name\"");
+                BeginWriteAttribute("value", " value=\"", 3885, "\"", 3907, 1);
 #nullable restore
 #line 87 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\Product\Detail.cshtml"
 WriteAttributeValue("", 3893, Model.Pname, 3893, 14, false);
@@ -177,9 +212,9 @@ WriteAttributeValue("", 3893, Model.Pname, 3893, 14, false);
 #line default
 #line hidden
 #nullable disable
-            EndWriteAttribute();
-            WriteLiteral(" />\r\n                        <input hidden name=\"Price\"");
-            BeginWriteAttribute("value", " value=\"", 3963, "\"", 3985, 1);
+                EndWriteAttribute();
+                WriteLiteral(" />\r\n                        <input hidden name=\"Price\"");
+                BeginWriteAttribute("value", " value=\"", 3963, "\"", 3985, 1);
 #nullable restore
 #line 88 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\Product\Detail.cshtml"
 WriteAttributeValue("", 3971, Model.Price, 3971, 14, false);
@@ -187,9 +222,9 @@ WriteAttributeValue("", 3971, Model.Price, 3971, 14, false);
 #line default
 #line hidden
 #nullable disable
-            EndWriteAttribute();
-            WriteLiteral(" />\r\n                        <input hidden name=\"pid\"");
-            BeginWriteAttribute("value", " value=\"", 4039, "\"", 4059, 1);
+                EndWriteAttribute();
+                WriteLiteral(" />\r\n                        <input hidden name=\"pid\"");
+                BeginWriteAttribute("value", " value=\"", 4039, "\"", 4059, 1);
 #nullable restore
 #line 89 "C:\Users\hyper\Documents\GitHub\ecommerceShop\ASP_NETCore_Working_EF\ASP_NETCore_Working_EF\Views\Product\Detail.cshtml"
 WriteAttributeValue("", 4047, Model.Pid, 4047, 12, false);
@@ -197,8 +232,8 @@ WriteAttributeValue("", 4047, Model.Pid, 4047, 12, false);
 #line default
 #line hidden
 #nullable disable
-            EndWriteAttribute();
-            WriteLiteral(@" />
+                EndWriteAttribute();
+                WriteLiteral(@" />
                         <div class=""cart-btn d-flex mb-50"">
                             <p>Qty</p>
                             <div class=""quantity"">
@@ -208,13 +243,25 @@ WriteAttributeValue("", 4047, Model.Pid, 4047, 12, false);
                             </div>
                         </div>
                         <button type=""submit"" name=""addtocart"" value=""5"" class=""btn amado-btn"">Add to cart</button>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>");
+                    ");
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
+            __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
+            __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_1);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_2.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral("\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
