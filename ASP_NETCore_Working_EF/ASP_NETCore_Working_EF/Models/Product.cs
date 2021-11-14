@@ -10,6 +10,7 @@ namespace ASP_NETCore_Working_EF.Models
         public Product()
         {
             BillDetails = new HashSet<BillDetail>();
+            OrderItems = new HashSet<OrderItem>();
         }
 
         public string Pid { get; set; }
@@ -23,5 +24,6 @@ namespace ASP_NETCore_Working_EF.Models
 
         public virtual Category Cate { get; set; }
         public virtual ICollection<BillDetail> BillDetails { get; set; }
+        public virtual ICollection<OrderItem> OrderItems { get; set; }
     }
 }

@@ -38,7 +38,10 @@ namespace ASP_NETCore_Working_EF.Controllers
             string pid = RouteData.Values["id"].ToString();
             ECommerce_PRN211Context context = new ECommerce_PRN211Context();
             var product = context.Products.Find(pid);
+            var category = context.Categories.Find(product.CateId);
+
             ViewBag.Product = product;
+            ViewBag.Category = category.CateName;
 
             return View(product);
         }

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Title  -->
-    <title>Shopping More Easier</title>
+    <title>Shopping Easy</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="~/img/core-img/favicon.ico">
@@ -71,13 +71,13 @@
                     <li><a href="/">Shop</a></li>
                     <li><a href="product-details.html">Product</a></li>
                     <li><a href="/Cart/Index">Cart</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="/CheckoutInfo">Checkout</a></li>
                 </ul>
             </nav>
 
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-                <a href="/Cart/Index" class="cart-nav"><img src="~/img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
+                <a href="/Cart/Index" class="cart-nav"><img src="~/img/core-img/cart.png" alt=""> Cart <span></span></a>
                 <a href="#" class="search-nav"><img src="~/img/core-img/search.png" alt=""> Search</a>
             </div>
             <!-- Social Button -->
@@ -89,9 +89,10 @@
             </div>
         </header>
         <!-- Header Area End -->
+        @RenderBody()
     </div>
     <!-- ##### Main Content Wrapper End ##### -->
-        @RenderBody()
+        
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer_area clearfix">
         <div class="container">
@@ -134,7 +135,7 @@
                                             <a class="nav-link" href="/Cart/Index">Cart</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="checkout.html">Checkout</a>
+                                            <a class="nav-link" href="/CheckoutInfo">Checkout</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -13,7 +13,7 @@ namespace ASP_NETCore_Working_EF.Controllers
     {
         public const string CARTKEY = "cart";
 
-        List<CartItem> GetCartItems()
+        public List<CartItem> GetCartItems()
         {
 
             var session = HttpContext.Session;
@@ -30,8 +30,22 @@ namespace ASP_NETCore_Working_EF.Controllers
             string jsoncart = JsonConvert.SerializeObject(ls);
             session.SetString(CARTKEY, jsoncart);
         }
+
+        public decimal getCartTotal()
+        {
+            var cart = GetCartItems();
+            decimal total = 0;
+            foreach (var item in cart)
+            {
+                decimal fuckC = item.Price ?? 0;
+                total += fuckC * Decimal.Parse(item.Quantity.ToString());
+            }
+            return total;
+        }
+
         public IActionResult Index()
         {
+            ViewBag.Total = getCartTotal();
             return View(GetCartItems());
         }
 
